@@ -34,7 +34,7 @@ You can see how the keys are stored in `config.py`. I invoke both API's in `main
 ### Running
 1. Verify that you have a `compiled` directory within the repository. This is where the most recent output of each league will be stored. You can change the name of this directory in `config.py`.
 2. Verify that you have a directory with the name of the league you want to find handles for. For example, if I was finding handles for the NFL, I need a directory named `nfl/` in the repository. This is where team outputs will be stored and aggregated.
-3. Run `python main.py <league_name>`. The process may take some time (~30 minutes for the NFL) before you get to the manual part. Once each team has been scraped, the program will then go through every low confidence rating in the CSV. Note that if the program is aborted, it will save your progress in this step, so you can run it again and it will speed through everything that had been completed before the early termination.
+3. Run `python main.py <league_name>`. For example, the NFL command is `python main.py nfl`.  The process may take some time (~30 minutes for the NFL) before you get to the manual part. Once each team has been scraped, the program will then go through every low confidence rating in the CSV. Note that if the program is aborted, it will save your progress in this step, so you can run it again and it will speed through everything that had been completed before the early termination.
 4. Move the output file into `compiled/` when finished.
 
 ## Contact
