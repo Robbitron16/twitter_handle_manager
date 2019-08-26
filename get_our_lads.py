@@ -136,6 +136,10 @@ def get_real_name(name):
         name = name.split(',')
     except Exception:
         return False
+
+    if len(name) != 2:
+        return False
+
     return name[1].strip() + ' ' + name[0].strip()
 
 # Gets the roster of players from a reputable site, as defined in config.py, for
