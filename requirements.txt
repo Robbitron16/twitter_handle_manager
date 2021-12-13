@@ -2,5 +2,5 @@ tweepy==3.8.0
 twitter==1.18.0
 pandas==0.24.2
 fuzzywuzzy==0.17.0
-lxml==4.4.1
+lxml==4.6.5
 python-Levenshtein==0.12.0
